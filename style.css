@@ -7,14 +7,16 @@ body {
 }
 
 
-h1 {
+h1:hover{
   color: rgb(25, 226, 25);
+  box-shadow: 0 8px 16px rgb(13, 226, 109);
   font-size: 60px;
  font-family: cursive;
 
 }
-p {
-  color:rgb(205, 255, 176);
+p:hover{
+  color:rgb(87, 236, 0);
+   box-shadow: 0 8px 16px rgb(13, 226, 109);
   font-family: cursive;
   font-size: 30px;
 }
