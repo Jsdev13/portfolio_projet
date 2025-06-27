@@ -1,0 +1,111 @@
+body {
+   
+    background-image: url(fond.png);
+    background-repeat: no-repeat;
+    background-size: 2900px;
+    
+}
+
+
+h1 {
+  color: rgb(25, 226, 25);
+  font-size: 60px;
+ font-family: cursive;
+
+}
+p {
+  color:rgb(205, 255, 176);
+  font-family: cursive;
+  font-size: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin: 30px;
+}
+
+
+.card {
+  background-color: rgba(15, 14, 14, 0.349);
+  text-align: center;
+  font-family: cursive;
+  font-size: 40px;
+  padding: 60px;
+  width: 130px;
+  height: 130px;
+  color: rgb(255, 255, 255);
+  transform: scale(1,1);
+  box-shadow: 0 16px 16px rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
+
+.card:hover{
+  display: block;
+  text-align: center;
+  background-color: #2cff10; 
+  transform: scale(1.1); 
+  box-shadow: 0 8px 16px rgb(13, 226, 109);
+}
+
+.container_portfolio {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.droite{
+  display: flex;
+  justify-content: right;
+  background-color: #2cff10; 
+  transform: scale(1.1); 
+  box-shadow: 0 8px 16px rgb(13, 226, 109);
+  margin-right: 40px;
+}
+
+.texte {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  color: rgb(211, 82, 8);
+  display: flex;
+  justify-content: space-around;
+}
+
+
+header {
+  background-image: url(matrix.png);
+  background-color: #2cff10; 
+  box-shadow: 0 8px 16px rgb(13, 226, 109);
+
+}
+
+.navbar {
+  margin: 20px;
+  padding: 30px;
+}
+
+a:hover{
+  font-size: xx-large;
+  color: rgb(13, 250, 104);
+  
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  gap: 100px;
+}
+
+a {
+  text-decoration: none;
+  color:inherit;
+  font-size: 40px;
+  font-family: cursive;
+}
+
