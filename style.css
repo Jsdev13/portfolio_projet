@@ -1,7 +1,7 @@
 body {
     background-image: url(fondd.avif);
     background-repeat: no-repeat;
-    background-size: 2900px;
+    background-size: cover;
     
 }
 
@@ -310,3 +310,51 @@ h2 {
   transform: scale(1.1); 
   box-shadow: 0 8px 16px rgb(185, 4, 4);
 }
+
+
+@media (max-width: 768px) {
+    .navbar{
+        flex-wrap: wrap;
+        align-items: flex-start;   
+    }
+
+    .hero-section {
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 80%;
+        color: white;
+    }
+
+    .droite img {
+    width: 100%;
+    height: auto;
+    max-width: 350px; 
+    display: block;
+    margin: 0 auto;
+}
+
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .container_portfolio {
+      flex-wrap: wrap;
+    }
+  
+}
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
