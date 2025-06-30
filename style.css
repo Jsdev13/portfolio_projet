@@ -318,6 +318,9 @@ h2 {
         align-items: flex-start;   
     }
 
+    a {
+      font-size: 25px;
+    }
     .hero-section {
         justify-content: flex-end;
         flex-wrap: wrap;
